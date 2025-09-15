@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function file_count {
-    echo $(ls -1 | wc -l)
+    echo $(ls -1 -A | wc -l)
 }
 
 echo "Guess how many files are in the current directory?"
